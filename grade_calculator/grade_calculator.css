@@ -1,0 +1,88 @@
+/* Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1976d2;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 5px 0 0 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/* Main Area */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Detail Box */
+#detail-area {
+    background-color: white;
+    padding: 25px 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+#detail-area h3 {
+    margin-top: 0;
+    color: #1976d2;
+}
+
+/* Labels + Inputs */
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Button */
+#submit {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1976d2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0d57a1;
+}
+
+/* Result */
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}

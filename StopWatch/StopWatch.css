@@ -1,0 +1,89 @@
+/* Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #272838;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+/* Heading */
+h1 {
+    margin-top: 40px;
+    color: #f8fafc;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+/* Main Container */
+#container {
+    background-color: #347FC4;
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px 35px;
+    border-radius: 14px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+}
+
+/* Timer Display */
+#timer {
+    font-size: 3em;
+    font-weight: bold;
+    color: #EBEBEB ;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+/* Buttons Container */
+#controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+/* Buttons */
+button {
+    flex: 1;
+    padding: 12px 0;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f8fafc;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+/* Button Colors */
+#startbtn {
+    background-color: #16a34a;
+}
+#startbtn:hover {
+    background-color: #026f2a;
+}
+
+#stopbtn {
+    background-color: #dc2626;
+}
+#stopbtn:hover {
+    background-color: #8e1111;
+}
+
+#resetbtn {
+    background-color: #2563eb;
+}
+#resetbtn:hover {
+    background-color: #012e8f;
+}
+
+/* Common  Hover Effect */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.5);
+}
+
+/* Active Effect */
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}

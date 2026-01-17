@@ -1,0 +1,11 @@
+body {
+    background-color: #0f172a;
+}
+#container{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    background-image: url('https://i.pinimg.com/736x/73/00/01/730001a2c4d28c48d63ffa84a83d5ded.jpg');
+    background-size: cover;
+    border: 3px solid black;
+}

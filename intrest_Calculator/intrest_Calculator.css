@@ -1,0 +1,94 @@
+/* Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+/* Form Box */
+form {
+    background-color: white;
+    width: 320px;
+    margin: 30px auto;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.12);
+    text-align: left;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 14px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input Hover + Focus */
+input[type="number"]:hover {
+    border-color: #66bb6a;
+}
+
+input[type="number"]:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76,175,80,0.5);
+    outline: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #43a047;
+    transform: translateY(-2px);
+}
+
+/* Button Click */
+button:active {
+    transform: translateY(0);
+}
+
+/* Total Output */
+#ttl {
+    margin-top: 18px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Amount Highlight */
+#ttl-amount {
+    color: #2e7d32;
+    font-size: 18px;
+}

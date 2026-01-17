@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+
+#rollBtn{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 6em;
+    border-radius: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(2, 102, 130);
+    color: rgb(211, 202, 202);
+    transition: all 0.3s ease-in-out 0s;
+}
+#rollBtn:hover{
+    scale: 1.1;
+}
+#rollBtn:active{
+    scale: 1.2;
+}
+.numDisplay {
+    position: relative;
+    top: 10px;
+    font-size: 3em;
+    color: rgb(1, 84, 107);
+}
